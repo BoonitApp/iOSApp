@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		7A5EDA8A1CF0E9B100C0F713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EDA891CF0E9B100C0F713 /* AppDelegate.swift */; };
-		7A5EDA8C1CF0E9B100C0F713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EDA8B1CF0E9B100C0F713 /* ViewController.swift */; };
 		7A5EDA8F1CF0E9B100C0F713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDA8D1CF0E9B100C0F713 /* Main.storyboard */; };
 		7A5EDA921CF0E9B100C0F713 /* BoonIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EDA901CF0E9B100C0F713 /* BoonIt.xcdatamodeld */; };
 		7A5EDA941CF0E9B100C0F713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDA931CF0E9B100C0F713 /* Assets.xcassets */; };
 		7A5EDA971CF0E9B100C0F713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDA951CF0E9B100C0F713 /* LaunchScreen.storyboard */; };
 		7A5EDAA21CF0E9B200C0F713 /* BoonItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EDAA11CF0E9B200C0F713 /* BoonItTests.swift */; };
+		7A5EDAB01CF0F2C100C0F713 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EDAAF1CF0F2C100C0F713 /* LoginViewController.swift */; };
+		7A5EDABA1CF0F7AF00C0F713 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5EDAB91CF0F7AF00C0F713 /* Social.framework */; };
+		7A5EDABE1CF0FE6200C0F713 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5EDABB1CF0FE6200C0F713 /* FBSDKCoreKit.framework */; };
+		7A5EDABF1CF0FE6200C0F713 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5EDABC1CF0FE6200C0F713 /* FBSDKLoginKit.framework */; };
+		7A5EDAC01CF0FE6200C0F713 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5EDABD1CF0FE6200C0F713 /* FBSDKShareKit.framework */; };
+		7A5EDAC71CF1074900C0F713 /* GenericTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EDAC61CF1074900C0F713 /* GenericTabBarViewController.swift */; };
+		7A5EDAE61CF10FAC00C0F713 /* Bg1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDADB1CF10FAC00C0F713 /* Bg1@2x.jpg */; };
+		7A5EDAE71CF10FAC00C0F713 /* Bg1@1x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDADC1CF10FAC00C0F713 /* Bg1@1x.jpg */; };
+		7A5EDAE81CF10FAC00C0F713 /* FB-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDADD1CF10FAC00C0F713 /* FB-login.png */; };
+		7A5EDAE91CF10FAC00C0F713 /* FB-login@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDADE1CF10FAC00C0F713 /* FB-login@1x.png */; };
+		7A5EDAEA1CF10FAC00C0F713 /* FB-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDADF1CF10FAC00C0F713 /* FB-login@2x.png */; };
+		7A5EDAEB1CF10FAC00C0F713 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDAE01CF10FAC00C0F713 /* Logo.png */; };
+		7A5EDAEC1CF10FAC00C0F713 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDAE11CF10FAC00C0F713 /* Logo@2x.png */; };
+		7A5EDAED1CF10FAC00C0F713 /* Logo@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDAE21CF10FAC00C0F713 /* Logo@1x.png */; };
+		7A5EDAEE1CF10FAC00C0F713 /* Hands@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDAE31CF10FAC00C0F713 /* Hands@2x.png */; };
+		7A5EDAEF1CF10FAC00C0F713 /* Hands@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDAE41CF10FAC00C0F713 /* Hands@1x.png */; };
+		7A5EDAF01CF10FAC00C0F713 /* Hands.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDAE51CF10FAC00C0F713 /* Hands.png */; };
+		7A5EDAF21CF10FB300C0F713 /* Bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDAF11CF10FB300C0F713 /* Bg1.jpg */; };
+		7A5EDAF41CF11E0000C0F713 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EDAF31CF11E0000C0F713 /* ProfileViewController.swift */; };
+		EFDA6AC7C473E2D32FA8128B /* Pods_BoonIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A945D5389487CC151ED618 /* Pods_BoonIt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13F29BFE540902EA98805BB9 /* Pods-BoonIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoonIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoonIt/Pods-BoonIt.debug.xcconfig"; sourceTree = "<group>"; };
+		446C6E60A8886D9E28D729D0 /* Pods-BoonIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoonIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoonIt/Pods-BoonIt.release.xcconfig"; sourceTree = "<group>"; };
 		7A5EDA861CF0E9B100C0F713 /* BoonIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoonIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5EDA891CF0E9B100C0F713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A5EDA8B1CF0E9B100C0F713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A5EDA8E1CF0E9B100C0F713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A5EDA911CF0E9B100C0F713 /* BoonIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoonIt.xcdatamodel; sourceTree = "<group>"; };
 		7A5EDA931CF0E9B100C0F713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +58,27 @@
 		7A5EDA9D1CF0E9B200C0F713 /* BoonItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoonItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5EDAA11CF0E9B200C0F713 /* BoonItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoonItTests.swift; sourceTree = "<group>"; };
 		7A5EDAA31CF0E9B200C0F713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5EDAAF1CF0F2C100C0F713 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7A5EDAB91CF0F7AF00C0F713 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7A5EDABB1CF0FE6200C0F713 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7A5EDABC1CF0FE6200C0F713 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7A5EDABD1CF0FE6200C0F713 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		7A5EDAC21CF0FF5A00C0F713 /* BoonIt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoonIt-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A5EDAC61CF1074900C0F713 /* GenericTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTabBarViewController.swift; sourceTree = "<group>"; };
+		7A5EDADB1CF10FAC00C0F713 /* Bg1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bg1@2x.jpg"; sourceTree = "<group>"; };
+		7A5EDADC1CF10FAC00C0F713 /* Bg1@1x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bg1@1x.jpg"; sourceTree = "<group>"; };
+		7A5EDADD1CF10FAC00C0F713 /* FB-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FB-login.png"; sourceTree = "<group>"; };
+		7A5EDADE1CF10FAC00C0F713 /* FB-login@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FB-login@1x.png"; sourceTree = "<group>"; };
+		7A5EDADF1CF10FAC00C0F713 /* FB-login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FB-login@2x.png"; sourceTree = "<group>"; };
+		7A5EDAE01CF10FAC00C0F713 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		7A5EDAE11CF10FAC00C0F713 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
+		7A5EDAE21CF10FAC00C0F713 /* Logo@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@1x.png"; sourceTree = "<group>"; };
+		7A5EDAE31CF10FAC00C0F713 /* Hands@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hands@2x.png"; sourceTree = "<group>"; };
+		7A5EDAE41CF10FAC00C0F713 /* Hands@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hands@1x.png"; sourceTree = "<group>"; };
+		7A5EDAE51CF10FAC00C0F713 /* Hands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hands.png; sourceTree = "<group>"; };
+		7A5EDAF11CF10FB300C0F713 /* Bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bg1.jpg; sourceTree = "<group>"; };
+		7A5EDAF31CF11E0000C0F713 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E0A945D5389487CC151ED618 /* Pods_BoonIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoonIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5EDABA1CF0F7AF00C0F713 /* Social.framework in Frameworks */,
+				7A5EDABE1CF0FE6200C0F713 /* FBSDKCoreKit.framework in Frameworks */,
+				7A5EDAC01CF0FE6200C0F713 /* FBSDKShareKit.framework in Frameworks */,
+				7A5EDABF1CF0FE6200C0F713 /* FBSDKLoginKit.framework in Frameworks */,
+				EFDA6AC7C473E2D32FA8128B /* Pods_BoonIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +104,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1A49129979F5BC4830EB0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A5EDABB1CF0FE6200C0F713 /* FBSDKCoreKit.framework */,
+				7A5EDABC1CF0FE6200C0F713 /* FBSDKLoginKit.framework */,
+				7A5EDABD1CF0FE6200C0F713 /* FBSDKShareKit.framework */,
+				7A5EDAB91CF0F7AF00C0F713 /* Social.framework */,
+				E0A945D5389487CC151ED618 /* Pods_BoonIt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7A5EDA7D1CF0E9B100C0F713 = {
 			isa = PBXGroup;
 			children = (
 				7A5EDA881CF0E9B100C0F713 /* BoonIt */,
 				7A5EDAA01CF0E9B200C0F713 /* BoonItTests */,
 				7A5EDA871CF0E9B100C0F713 /* Products */,
+				A850CC069A185C780174A70C /* Pods */,
+				4F1A49129979F5BC4830EB0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +139,15 @@
 		7A5EDA881CF0E9B100C0F713 /* BoonIt */ = {
 			isa = PBXGroup;
 			children = (
+				7A5EDAAD1CF0F2C100C0F713 /* Assets */,
+				7A5EDAAC1CF0F2C100C0F713 /* Helpers */,
+				7A5EDAAE1CF0F2C100C0F713 /* ViewControllers */,
 				7A5EDA891CF0E9B100C0F713 /* AppDelegate.swift */,
-				7A5EDA8B1CF0E9B100C0F713 /* ViewController.swift */,
 				7A5EDA8D1CF0E9B100C0F713 /* Main.storyboard */,
-				7A5EDA931CF0E9B100C0F713 /* Assets.xcassets */,
 				7A5EDA951CF0E9B100C0F713 /* LaunchScreen.storyboard */,
 				7A5EDA981CF0E9B100C0F713 /* Info.plist */,
 				7A5EDA901CF0E9B100C0F713 /* BoonIt.xcdatamodeld */,
+				7A5EDA931CF0E9B100C0F713 /* Assets.xcassets */,
 			);
 			path = BoonIt;
 			sourceTree = "<group>";
@@ -99,6 +161,60 @@
 			path = BoonItTests;
 			sourceTree = "<group>";
 		};
+		7A5EDAAC1CF0F2C100C0F713 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7A5EDAC21CF0FF5A00C0F713 /* BoonIt-Bridging-Header.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7A5EDAAD1CF0F2C100C0F713 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7A5EDAC81CF10B8400C0F713 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7A5EDAAE1CF0F2C100C0F713 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A5EDAAF1CF0F2C100C0F713 /* LoginViewController.swift */,
+				7A5EDAC61CF1074900C0F713 /* GenericTabBarViewController.swift */,
+				7A5EDAF31CF11E0000C0F713 /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7A5EDAC81CF10B8400C0F713 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7A5EDAF11CF10FB300C0F713 /* Bg1.jpg */,
+				7A5EDADB1CF10FAC00C0F713 /* Bg1@2x.jpg */,
+				7A5EDADC1CF10FAC00C0F713 /* Bg1@1x.jpg */,
+				7A5EDADD1CF10FAC00C0F713 /* FB-login.png */,
+				7A5EDADE1CF10FAC00C0F713 /* FB-login@1x.png */,
+				7A5EDADF1CF10FAC00C0F713 /* FB-login@2x.png */,
+				7A5EDAE01CF10FAC00C0F713 /* Logo.png */,
+				7A5EDAE11CF10FAC00C0F713 /* Logo@2x.png */,
+				7A5EDAE21CF10FAC00C0F713 /* Logo@1x.png */,
+				7A5EDAE31CF10FAC00C0F713 /* Hands@2x.png */,
+				7A5EDAE41CF10FAC00C0F713 /* Hands@1x.png */,
+				7A5EDAE51CF10FAC00C0F713 /* Hands.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A850CC069A185C780174A70C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13F29BFE540902EA98805BB9 /* Pods-BoonIt.debug.xcconfig */,
+				446C6E60A8886D9E28D729D0 /* Pods-BoonIt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A5EDAA61CF0E9B200C0F713 /* Build configuration list for PBXNativeTarget "BoonIt" */;
 			buildPhases = (
+				65BF4AD3F1781A094D0A121F /* Check Pods Manifest.lock */,
 				7A5EDA821CF0E9B100C0F713 /* Sources */,
 				7A5EDA831CF0E9B100C0F713 /* Frameworks */,
 				7A5EDA841CF0E9B100C0F713 /* Resources */,
+				E9F4868EBA7A3AAF9978B78D /* Embed Pods Frameworks */,
+				B3A4008440FF1EE1A22463DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,9 +299,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5EDAEB1CF10FAC00C0F713 /* Logo.png in Resources */,
+				7A5EDAEC1CF10FAC00C0F713 /* Logo@2x.png in Resources */,
 				7A5EDA971CF0E9B100C0F713 /* LaunchScreen.storyboard in Resources */,
+				7A5EDAE91CF10FAC00C0F713 /* FB-login@1x.png in Resources */,
+				7A5EDAEA1CF10FAC00C0F713 /* FB-login@2x.png in Resources */,
+				7A5EDAE61CF10FAC00C0F713 /* Bg1@2x.jpg in Resources */,
 				7A5EDA941CF0E9B100C0F713 /* Assets.xcassets in Resources */,
+				7A5EDAEE1CF10FAC00C0F713 /* Hands@2x.png in Resources */,
+				7A5EDAE71CF10FAC00C0F713 /* Bg1@1x.jpg in Resources */,
+				7A5EDAEF1CF10FAC00C0F713 /* Hands@1x.png in Resources */,
 				7A5EDA8F1CF0E9B100C0F713 /* Main.storyboard in Resources */,
+				7A5EDAED1CF10FAC00C0F713 /* Logo@1x.png in Resources */,
+				7A5EDAF21CF10FB300C0F713 /* Bg1.jpg in Resources */,
+				7A5EDAF01CF10FAC00C0F713 /* Hands.png in Resources */,
+				7A5EDAE81CF10FAC00C0F713 /* FB-login.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,12 +326,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65BF4AD3F1781A094D0A121F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A4008440FF1EE1A22463DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoonIt/Pods-BoonIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F4868EBA7A3AAF9978B78D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoonIt/Pods-BoonIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A5EDA821CF0E9B100C0F713 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5EDA8C1CF0E9B100C0F713 /* ViewController.swift in Sources */,
+				7A5EDAC71CF1074900C0F713 /* GenericTabBarViewController.swift in Sources */,
+				7A5EDAB01CF0F2C100C0F713 /* LoginViewController.swift in Sources */,
+				7A5EDAF41CF11E0000C0F713 /* ProfileViewController.swift in Sources */,
 				7A5EDA8A1CF0E9B100C0F713 /* AppDelegate.swift in Sources */,
 				7A5EDA921CF0E9B100C0F713 /* BoonIt.xcdatamodeld in Sources */,
 			);
@@ -331,23 +512,34 @@
 		};
 		7A5EDAA71CF0E9B200C0F713 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F29BFE540902EA98805BB9 /* Pods-BoonIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/lojals/Documents/FacebookSDK;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = BoonIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.boonit.boonit.BoonIt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boonit.boon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BoonIt/Helpers/BoonIt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		7A5EDAA81CF0E9B200C0F713 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446C6E60A8886D9E28D729D0 /* Pods-BoonIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/lojals/Documents/FacebookSDK;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = BoonIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.boonit.boonit.BoonIt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boonit.boon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BoonIt/Helpers/BoonIt-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -394,6 +586,7 @@
 				7A5EDAA81CF0E9B200C0F713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A5EDAA91CF0E9B200C0F713 /* Build configuration list for PBXNativeTarget "BoonItTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +595,7 @@
 				7A5EDAAB1CF0E9B200C0F713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

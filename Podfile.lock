@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (3.4.0)
+  - Cartography (0.6.0)
+  - Kingfisher (2.4.1)
+  - Pages (0.6.3)
+  - pop (1.0.9)
+  - Presentation (2.1.0):
+    - Cartography
+    - Pages (~> 0.6.2)
+  - Socket.IO-Client-Swift (6.1.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher (~> 2.4)
+  - pop (~> 1.0)
+  - Presentation
+  - Socket.IO-Client-Swift (~> 6.1.0)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  Kingfisher: 41aed5b6c1ed8fa98cf6d75283ce89cf7890f517
+  Pages: 71e80bc64040f1176297c327d080d80b7e74b38c
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  Presentation: b2a7fd95329ada58be129da65dbbdf6b39259772
+  Socket.IO-Client-Swift: 86a3744e1da181a4078a24a632bd3acc34b9f1f5
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

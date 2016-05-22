@@ -19,9 +19,9 @@ class GenericTabBarViewController: UITabBarController {
     }
 }
 
-extension UITabBar{
-    public override func sizeThatFits(size: CGSize) -> CGSize {
-        let size = CGSizeMake(self.frame.size.width,70)
-        return size
-    }
-}
+//extension UITabBar{
+//    public override func sizeThatFits(size: CGSize) -> CGSize {
+//        let size = CGSizeMake(self.frame.size.width,70)
+//        return size
+//    }
+//}

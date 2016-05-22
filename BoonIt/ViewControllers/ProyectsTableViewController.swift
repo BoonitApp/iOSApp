@@ -7,11 +7,22 @@
 //
 
 import UIKit
+import SwiftyJSON
+import Alamofire
 
 class ProyectsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(red:0.24, green:0.24, blue:0.24, alpha:1.00)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -45,6 +56,6 @@ class ProyectsTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return indexPath.section == 0 ? 400 :  65
+        return indexPath.section == 0 ? 400 :  122
     }
 }

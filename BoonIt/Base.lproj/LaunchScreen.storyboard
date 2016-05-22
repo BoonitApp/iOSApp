@@ -16,7 +16,39 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U3e-Ki-RzD">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HAw-Hg-Qb0">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="EkQ-wM-XTq">
+                                        <rect key="frame" x="155" y="244" width="290" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="112" id="Ahi-EM-3Kt"/>
+                                            <constraint firstAttribute="width" constant="290" id="LBK-v6-mgc"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.29019607843137252" green="0.58039215686274503" blue="0.57647058823529407" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="EkQ-wM-XTq" firstAttribute="centerY" secondItem="HAw-Hg-Qb0" secondAttribute="centerY" id="m6N-ot-TES"/>
+                                    <constraint firstItem="EkQ-wM-XTq" firstAttribute="centerX" secondItem="HAw-Hg-Qb0" secondAttribute="centerX" id="spE-sp-240"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U3e-Ki-RzD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="01y-LB-hMt"/>
+                            <constraint firstItem="HAw-Hg-Qb0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="C5k-H1-kGz"/>
+                            <constraint firstItem="HAw-Hg-Qb0" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="Itc-8U-gAV"/>
+                            <constraint firstItem="U3e-Ki-RzD" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="b1d-Fd-GTZ"/>
+                            <constraint firstItem="U3e-Ki-RzD" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="cNE-4t-EAX"/>
+                            <constraint firstItem="HAw-Hg-Qb0" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="mMV-mv-tFH"/>
+                            <constraint firstItem="HAw-Hg-Qb0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="u2W-uo-qbt"/>
+                            <constraint firstItem="U3e-Ki-RzD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="upk-y1-Pi8"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +56,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Bg1.jpg" width="375" height="595"/>
+        <image name="Logo.png" width="290" height="112"/>
+    </resources>
 </document>

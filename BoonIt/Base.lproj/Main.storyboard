@@ -18,7 +18,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HighlightedCell" rowHeight="400" id="fqS-fN-Ctl">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HighlightedCell" rowHeight="400" id="fqS-fN-Ctl" customClass="Project1TableViewCell" customModule="BoonIt" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="400"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fqS-fN-Ctl" id="KRO-cZ-Gsf">
@@ -98,8 +98,14 @@
                                         <exclude reference="bKW-uK-yzJ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <outlet property="imgCategory" destination="uLn-Ad-pTS" id="Obx-2c-bIy"/>
+                                    <outlet property="imgProject" destination="bBr-TA-97v" id="xDr-q9-QDh"/>
+                                    <outlet property="lblDescription" destination="Chr-hN-t4O" id="5jq-yH-Qkj"/>
+                                    <outlet property="lblTitle" destination="okL-MZ-HgR" id="st1-kf-HQs"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="122" id="SlV-Ys-tJU">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="122" id="SlV-Ys-tJU" customClass="Project2TableViewCell" customModule="BoonIt" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="492" width="600" height="122"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SlV-Ys-tJU" id="A8Y-1E-ygE">
@@ -208,6 +214,12 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="imgProject" destination="lgW-RH-nmr" id="7wf-fS-NGh"/>
+                                    <outlet property="lblName" destination="4ng-sv-nfW" id="t4Y-M2-zaT"/>
+                                    <outlet property="lblNeeds" destination="Y8W-Ek-NxU" id="yhb-6Q-eEf"/>
+                                    <outlet property="progress" destination="uAC-zW-IDR" id="Mbz-Ov-Eh4"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainValuesCell" rowHeight="122" id="dV7-gJ-5EO">
                                 <rect key="frame" x="0.0" y="614" width="600" height="122"/>
@@ -315,7 +327,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-yH-M5R">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-yH-M5R">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Causa1BG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="D3U-QQ-LBJ">
@@ -327,7 +339,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FNo-U6-nOc">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="121"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REFORESTA LOS CERROS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvg-Au-DBQ">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INCENDIO FORESTAL" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvg-Au-DBQ">
                                                 <rect key="frame" x="30" y="10" width="540" height="121"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                 <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -620,10 +632,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uUJ-vG-Ecb">
-                                <rect key="frame" x="20" y="164" width="118" height="111"/>
-                                <color key="backgroundColor" red="0.93333333330000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3a-0N-diX">
                                 <rect key="frame" x="37" y="303" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
@@ -631,8 +639,18 @@
                                     <action selector="logout:" destination="caK-uw-yOs" eventType="touchUpInside" id="KPv-Cb-vbb"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uUJ-vG-Ecb">
+                                <rect key="frame" x="20" y="143" width="118" height="111"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="Wbs-3E-Dlz"/>
+                                    <constraint firstAttribute="width" constant="118" id="Wdy-i8-FiP"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.20000000000000001" green="1" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="uUJ-vG-Ecb" firstAttribute="centerX" secondItem="wDV-Hl-5Vk" secondAttribute="centerX" id="D1y-Ze-tyr"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="miq-aS-vN0"/>
                     <connections>

@@ -27,7 +27,6 @@ class PaymentViewController: UIViewController {
     }
     
     @IBAction func setValue(sender: AnyObject) {
-        print((sender as! UIButton).tag)
         for btn in priceBtns{
             if (sender as! UIButton).tag == btn.tag {
                 btn.backgroundColor = UIColor(red:0.24, green:0.24, blue:0.24, alpha:1.00)

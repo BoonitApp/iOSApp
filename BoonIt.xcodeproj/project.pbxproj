@@ -14,6 +14,8 @@
 		7A3762F81CF1E3C100C73BA7 /* Financiar-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3762F51CF1E3C100C73BA7 /* Financiar-btn.png */; };
 		7A3762F91CF1E3C100C73BA7 /* Financiar-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3762F61CF1E3C100C73BA7 /* Financiar-btn@2x.png */; };
 		7A3762FA1CF1E3C100C73BA7 /* Financiar-btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3762F71CF1E3C100C73BA7 /* Financiar-btn@3x.png */; };
+		7A3762FD1CF205C100C73BA7 /* Project1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3762FC1CF205C100C73BA7 /* Project1TableViewCell.swift */; };
+		7A3762FF1CF2078000C73BA7 /* Project2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3762FE1CF2078000C73BA7 /* Project2TableViewCell.swift */; };
 		7A5EDA8A1CF0E9B100C0F713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EDA891CF0E9B100C0F713 /* AppDelegate.swift */; };
 		7A5EDA8F1CF0E9B100C0F713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EDA8D1CF0E9B100C0F713 /* Main.storyboard */; };
 		7A5EDA921CF0E9B100C0F713 /* BoonIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EDA901CF0E9B100C0F713 /* BoonIt.xcdatamodeld */; };
@@ -85,6 +87,8 @@
 		7A3762F51CF1E3C100C73BA7 /* Financiar-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Financiar-btn.png"; sourceTree = "<group>"; };
 		7A3762F61CF1E3C100C73BA7 /* Financiar-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Financiar-btn@2x.png"; sourceTree = "<group>"; };
 		7A3762F71CF1E3C100C73BA7 /* Financiar-btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Financiar-btn@3x.png"; sourceTree = "<group>"; };
+		7A3762FC1CF205C100C73BA7 /* Project1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project1TableViewCell.swift; sourceTree = "<group>"; };
+		7A3762FE1CF2078000C73BA7 /* Project2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project2TableViewCell.swift; sourceTree = "<group>"; };
 		7A5EDA861CF0E9B100C0F713 /* BoonIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoonIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5EDA891CF0E9B100C0F713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A5EDA8E1CF0E9B100C0F713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				7A5EDAC21CF0FF5A00C0F713 /* BoonIt-Bridging-Header.h */,
+				7A3762FC1CF205C100C73BA7 /* Project1TableViewCell.swift */,
+				7A3762FE1CF2078000C73BA7 /* Project2TableViewCell.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -502,7 +508,9 @@
 				7A3762EE1CF1B89E00C73BA7 /* PaymentViewController.swift in Sources */,
 				7A5EDB221CF1476E00C0F713 /* ProyectsTableViewController.swift in Sources */,
 				7A5EDAF61CF1429B00C0F713 /* AimTableViewController.swift in Sources */,
+				7A3762FD1CF205C100C73BA7 /* Project1TableViewCell.swift in Sources */,
 				7A5EDA8A1CF0E9B100C0F713 /* AppDelegate.swift in Sources */,
+				7A3762FF1CF2078000C73BA7 /* Project2TableViewCell.swift in Sources */,
 				7A5EDA921CF0E9B100C0F713 /* BoonIt.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

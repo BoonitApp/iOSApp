@@ -8,6 +8,7 @@ target 'BoonIt' do
     pod 'pop', '~> 1.0'
     pod 'Socket.IO-Client-Swift', '~> 6.1.0'
     pod 'Kingfisher', '~> 2.4'
+    pod "youtube-ios-player-helper"
 end
 
 target 'BoonItTests' do

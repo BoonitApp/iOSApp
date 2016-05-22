@@ -92,6 +92,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-BoonIt/SocketIOClientSwift.framework"
   install_framework "Pods-BoonIt/SwiftyJSON.framework"
   install_framework "Pods-BoonIt/pop.framework"
+  install_framework "Pods-BoonIt/youtube_ios_player_helper.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-BoonIt/Alamofire.framework"
@@ -102,4 +103,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-BoonIt/SocketIOClientSwift.framework"
   install_framework "Pods-BoonIt/SwiftyJSON.framework"
   install_framework "Pods-BoonIt/pop.framework"
+  install_framework "Pods-BoonIt/youtube_ios_player_helper.framework"
 fi

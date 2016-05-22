@@ -26,6 +26,8 @@ class LoginViewController: UIViewController {
                 if result.isCancelled{
                     print("User just cancelled the login")
                 }else{
+                    
+                    print(result.token.tokenString)
                     FBSDKGraphRequest(graphPath: "me?fields=picture,email,name,first_name,last_name", parameters: nil).startWithCompletionHandler({ (conn, result, error) -> Void in
                         if error == nil {
                             let tabBarView = self.storyboard?.instantiateViewControllerWithIdentifier("GenericTabBarViewController") as! GenericTabBarViewController

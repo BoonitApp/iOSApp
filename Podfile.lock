@@ -9,6 +9,7 @@ PODS:
     - Pages (~> 0.6.2)
   - Socket.IO-Client-Swift (6.1.1)
   - SwiftyJSON (2.3.2)
+  - youtube-ios-player-helper (0.1.6)
 
 DEPENDENCIES:
   - Alamofire
@@ -17,6 +18,7 @@ DEPENDENCIES:
   - Presentation
   - Socket.IO-Client-Swift (~> 6.1.0)
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - youtube-ios-player-helper
 
 EXTERNAL SOURCES:
   SwiftyJSON:
@@ -36,5 +38,6 @@ SPEC CHECKSUMS:
   Presentation: b2a7fd95329ada58be129da65dbbdf6b39259772
   Socket.IO-Client-Swift: 86a3744e1da181a4078a24a632bd3acc34b9f1f5
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
 
 COCOAPODS: 0.39.0

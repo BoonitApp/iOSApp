@@ -17,6 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.backgroundColor = UIColor(red:0.35, green:0.58, blue:0.57, alpha:1.00)
+        
+        if (FBSDKAccessToken.currentAccessToken() != nil){
+            let tab = storyboard.instantiateViewControllerWithIdentifier("GenericTabBarViewController")
+            self.window?.rootViewController = tab
+        }else{
+            let login = storyboard.instantiateViewControllerWithIdentifier("LoginViewController")
+            self.window?.rootViewController = login
+            
+        }
+        
+        self.window!.makeKeyAndVisible()
+        
         return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
     }
     
